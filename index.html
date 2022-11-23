@@ -9,13 +9,56 @@
   <title>Frontend Mentor | News homepage</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
+  
 </head>
 <body>
-
+  <header class="container">
+    <nav>
+      <img src="assets/images/logo.svg" alt="logo" class="logo">
+      <ul class="nav-links">
+        <li>Home</li>
+        <li>New</li>
+        <li>Popular</li>
+        <li>Trending</li>
+        <li>Categories</li>
+      </ul>
+    </nav>
+  </header>
+  <main class="container">
+    <div class="slider_with_content">
+      <div class="left_sidebar">
+        <img src="assets/images/image-web-3-desktop.jpg" alt="banner" class="banner_img">
+        <div class="banner_text">
+          <div class="main_title">
+            <h1>The Bright Future of Web 3.0?</h1>
+          </div>
+          <div class="banner_bottom_text">
+            <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+              But is it really fulfilling its promise?</p>
+              <button>Read more</button>
+          </div>
+        </div>
+      </div>
+      <div class="right_sidebar">
+        <h4>New </h4>
+        <ul>
+          <li>
+            <h5>Hydrogen VS Electric Cars</h5>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </li>
+          <li>
+            <h5>The Downsides of AI Artistry</h5>
+            <p>What are the possible adverse effects of on-demand AI image generation?</p>
+          </li>
+          <li>
+            <h5>Is VC Funding Drying Up?</h5>
+            <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
   Home
   New
   Popular
